@@ -1,0 +1,60 @@
+/* Selektor znacznika */
+
+h1 {
+background-color: red;    
+}
+
+h1 {
+    background-color: yellow;
+}
+
+/* Selektor ID*/
+
+#paragraph {
+    color: gray;
+}
+
+/*Selektor klasy */
+
+.menu-item {
+    font-size: 3cm;
+}
+
+/*Selektor potomstwa bezpośredniego */
+
+div > span {
+    color: blue;
+}
+
+/*Selektor potomstwa */
+section span {
+    background-color: yellow;
+}
+
+/*Selektor bezpośredniego rodzeństwa */
+
+h2 + p {
+    font-size: 1.5cm
+}
+
+/*Selektor rodzeństwa */
+
+h3 ~ p {
+    background-color: pink;
+}
+
+h2 {
+    background-color: fuchsia !important; 
+}
+
+#mainheader {
+    background-color: green;
+}
+
+.header {
+    background-color: orange;
+}
+
+h2 {
+    background-color: aqua;
+}
