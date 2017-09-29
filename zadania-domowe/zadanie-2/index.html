@@ -7,24 +7,24 @@
 <body>
     <form action="https://formspree.io/grzegorz_xx@op.pl" method="post">
        <label for="name">Imię:</label><br>
-       <input type="text" id="name"><br>
+       <input type="text" name="name"><br>
        <label for="surname">Nazwisko:</label><br>
-       <input type="text" id="surname"><br>
+       <input type="text" name="surname"><br>
        <label for="email">E-mail:</label><br>
-       <input type="mail" id="email"><br>
+       <input type="mail" name="email"><br>
        <label for="phone">Telefon:</label><br>
-       <input type="tel" id="phone"><br>
+       <input type="tel" name="phone"><br>
        <label for="city">Miasto:</label><br>
-       <select name="select">
+       <select name="miasto">
           <option value="krakow" id="city1">Kraków</option>
           <option value="warszawa" id="city2">Warszawa</option>
           <option value="gdansk" id="city3">Gdańsk</option>       
        </select><br>
        <label for="sex">Płeć:</label><br>
-       <input type="radio" name="sex" id="female"><label for="female">kobieta</label><br>
-       <input type="radio" name="sex" id="male"><label for="male">mężczyzna</label><br>
+       <input type="radio" name="sex" id="female"><label for="female" name="sex">kobieta</label><br>
+       <input type="radio" name="sex" id="male"><label for="male" name="sex">mężczyzna</label><br>
        <label for="agree">Zgoda na przetwarzanie danych osobowych.</label><br>
-       <label><input type="checkbox" id="agree">Wyrażam zgodę na przetwarzanie danych osobowych w celach naukowych ;)</label><br>
+       <label><input type="checkbox" id="agree" name="agree">Wyrażam zgodę na przetwarzanie danych osobowych w celach naukowych ;)</label><br>
        <label for="message">Wiadomość:</label><br>
        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
        <input type="submit" value="Wyślij formularz">
