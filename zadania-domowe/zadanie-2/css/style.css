@@ -1,0 +1,57 @@
+#main-container {
+        background: #213b50;
+        width: 50%;
+        color: #FFFFFF;        
+}
+
+input[type="text"], textarea, select {
+    background-color: #2b4a64;
+    color: white;
+    width: 50%;
+    border: 0;
+    padding: 5px;
+    box-sizing: border-box
+    }
+
+input[type="email"] {
+    background-color: #2b4a64;
+    color: white;
+    width: 50%;
+    border: 0;    
+    padding: 5px;
+    box-sizing: border-box
+}
+
+input[type="tel"] {
+    background-color: #2b4a64;
+    color: white;
+    width: 50%;
+    border: 0;     
+    padding: 5px;
+    box-sizing: border-box
+}
+
+#main-container input:focus {
+    background: #4e708c;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+#main-container label {
+    color: #FFFFFF;
+    display: block;
+    width: 50%;
+}
+
+#main-container input[type="submit"] {
+    width: 70px;
+    text-transform: uppercase;
+    background-color: lime;
+    border: 0;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-weight: 800;
+   
+}
+
+
